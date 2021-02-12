@@ -6,7 +6,7 @@
 
 
 
-###01Eclipse的下载安装
+### 01Eclipse的下载安装
 	* A: Eclipse的下载安装		
 		* a: 下载
 			* http://www.eclipse.org
@@ -22,7 +22,7 @@
 		* c: 免安装
 		* d: 扩展性强
 		
-###02Eclipse的工作空间和新建工程
+### 02Eclipse的工作空间和新建工程
 	* A: Eclipse的工作空间和新建工程
 		* a: 工作空间
 			*  其实就是我们写的源代码所在的目录						
@@ -41,7 +41,7 @@
 			* 方式3：选中要运行的java文件，或者在编写代码的空白区域，右键选择 Run As --> 运行java程序
 
 			
-###03Eclipse的HelloWorld编写
+### 03Eclipse的HelloWorld编写
 	* A:HelloWorld编写
 		* a: 编写过程(参照上个知识点)
 			* 建立day08项目
@@ -56,7 +56,7 @@
 			
 	
 
-###04Eclipse的字体设置
+### 04Eclipse的字体设置
 	* A: Eclipse的字体设置
 		* a: 修改编译环境和运行环境
 			* 编译环境：Window -- Preferences – Java - Compiler
@@ -75,14 +75,14 @@
 				* window -- Preferences -- General -- Appearance -- Colors And Fonts -- Basic -- Text Font
 				
 
-###05Eclipse的窗口设置
+### 05Eclipse的窗口设置
 	* A: 窗口设置
 		* a: 显示的窗口乱了，还原默认显示模式
 			* Window – Perspective -- Reset Prespective
 		* b: 显示控制台
 			* Window--Show View—Console		
 			
-###06Eclipse的去掉多余的注释
+### 06Eclipse的去掉多余的注释
 	* A: Eclipse的去掉多余的注释
 		* a:如何去掉默认注释
 			* Window -- Preferences -- Java -- Code Style -- Code Templates -- Comments – Methods，点击Edit ，将注释部分删除 (不建议删除)
@@ -90,7 +90,7 @@
 		* b: 切换工作空间
 			* File – Switch Workspace – 指定工作空间 – ok
 			
-###07Eclipse的快捷键
+### 07Eclipse的快捷键
 	* A: Eclipse的快捷键
 		* a: 内容辅助键  Alt+/
 			* 自动补齐main方法  main 然后 Alt+/
@@ -126,7 +126,7 @@
 			* 改名
 				* alt + shift + r（类名，方法名，变量名）
 				
-###08Eclipse的断点调试
+### 08Eclipse的断点调试
 	* A:断点调试(又称为Debug调试)的作用
 		* 调试程序
 		* 查看程序执行流程
@@ -155,7 +155,7 @@
 			* a:再次双击即可
 			* b:找到Debug视图，Variables界面，找到Breakpoints，并点击，然后看到所有的断点，最后点击那个双叉		
 
-###09Eclipse的工程删除和导入
+### 09Eclipse的工程删除和导入
 	* A:删除项目
 		* 选中项目 – 右键 – 删除
 			* 从项目区域中删除
@@ -170,7 +170,7 @@
 
 
 		
-###10超市管理系统功能介绍			
+### 10超市管理系统功能介绍			
 	* A：超市管理系统功能介绍
 		* a: 显示主菜单
 		
@@ -217,7 +217,7 @@
 		* f: 输入5:退出系统
 
 
-###11超市管理系统案例分析
+### 11超市管理系统案例分析
 	* A: 超市管理系统案例分析
 		* 完成超市商品初始化。创建商品，将商品添加到集合
 		* 显示来到超市能做的操作，也就是显示主菜单
@@ -230,7 +230,7 @@
 		* 循环，回到 2.显示主菜单
 
 				
-###12自定义商品类
+### 12自定义商品类
 	* A: 自定义商品类
 		* a: 目的
 			* 每种库存商品都拥有多项商品信息，为了方便管理每种商品的信息，我们对商品信息进行封装，编写FruitItem.java文件
@@ -245,7 +245,7 @@
 		* 补充
 			* 上述代码中，对商品信息（编号、名称、单价、数量、金额）进行了封装。这样做的好处在于以后只要找到这个商品，就能够知道该商品的每项信息了。
 
-###13初始化商品属性
+### 13初始化商品属性
 	* A: 初始化商品属性
 		* a: 案例代码
 			import java.util.ArrayList;
@@ -309,7 +309,7 @@
 			}
 
 
-###14主菜单功能
+### 14主菜单功能
 	* A: 主菜单功能
 		* a: 案例代码
 			
@@ -387,7 +387,7 @@
 				
 			}				
 				
-###15用户选择功能
+### 15用户选择功能
 	* A: 用户选择功能
 		* a: 案例代码
 			import java.util.ArrayList;
@@ -504,7 +504,7 @@
 				
 			}
 
-###16商品的清单功能
+### 16商品的清单功能
 	* A: 商品的清单功能
 		* a: 案例代码(显示商品清单的showFruitList(ArrayList<FruitItem>)方法的代码如下)
 			/*
@@ -525,7 +525,7 @@
 					System.out.println(item.ID+"   "+item.name+"        "+item.price);
 				}
 			}
-###17商品的添加功能
+### 17商品的添加功能
 	* A: 商品的添加功能
 		* a: 案例代码(商品添加功能的addFruit(ArrayList<FruitItem>)方法的代码如下)
 			/*
@@ -561,7 +561,7 @@
 				array.add(item);
 				System.out.println("商品添加成功");
 			}
-###18商品的删除功能
+### 18商品的删除功能
 	* A: 商品的删除功能(删除商品deleteFruit(ArrayList<FruitItem>)方法的代码如下)
 		* a: 案例代码
 			/*
@@ -596,7 +596,7 @@
 				}
 				System.out.println("你输入的编号不存在");
 			}
-###19商品的修改功能
+### 19商品的修改功能
 	* A: 商品的修改功能
 		* a: 案例代码(修改商品updateFruit(ArrayList<FruitItem>)方法的代码如下)
 			/*
@@ -637,5 +637,5 @@
 				}
 				System.out.println("输入的编号不存在");
 			}
-###20总结
+### 20总结
 * 把今天的知识点总结一遍。
