@@ -376,13 +376,14 @@
 
 	B:
 		VIP服务
+		
 ```java
 public interface VIP {
      public abstract void server(); //服务
 }
 
-	员工
-/*
+	
+/*  员工
  * 	员工：
 		 姓名 String
 		 工号 String
@@ -421,8 +422,8 @@ public abstract class YuanGong {
 	
 }
 
-	服务员
-/*
+	
+/* 服务员
  * 定义员工的子类 服务员类
  */
 public class FuWuYuan extends YuanGong implements VIP {
@@ -443,8 +444,8 @@ public class FuWuYuan extends YuanGong implements VIP {
 	}
 }
 
-	经理
-/*
+	
+/* 经理
  * 经理在员工的基础上，添加了奖金成员
  */
 public class JingLi extends YuanGong {
@@ -471,8 +472,8 @@ public class JingLi extends YuanGong {
 	};
 }
 
-	厨师
-/*
+	
+/* 厨师
  * 定义员工的子类 厨师类
  */
 public class ChuShi extends YuanGong implements VIP{
